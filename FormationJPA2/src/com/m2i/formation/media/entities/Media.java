@@ -58,6 +58,8 @@ public class Media implements IEntity {
 	private List<Page> pages;
 
 	public Media() {
+		this.setTitle("les aventures de toto");
+		this.setPrice(15);
 	}
 
 	public Integer getId() {
